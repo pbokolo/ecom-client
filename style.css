@@ -1,0 +1,26 @@
+:root {
+  /*=============================================
+    =                  COLORS                     =
+    =============================================*/
+  --color-primary--light: #00bf9a;
+  --color-primary: #00aa8d;
+  --color-primary--dark: #008975;
+
+  --color-secondary--light: #9b26af;
+  --color-secondary: #7a1eae;
+  --color-secondary--dark: #691a99;
+
+  --color-white: #ffffff;
+  --color-grey--light: #fafafa;
+  --color-grey: #f5f5f5;
+  --color-grey--dark: #e0e0e0;
+
+  /*=====  End of COLORS  ======*/
+
+  /*=============================================
+  =                  SPACINGS                   =
+  =============================================*/
+  --main-layout-gap: 1rem;
+
+  /*=====  End of SPACINGS  ======*/
+}
