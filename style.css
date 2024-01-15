@@ -24,3 +24,13 @@
 
   /*=====  End of SPACINGS  ======*/
 }
+
+/**
+* Basic resetting
+**/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
