@@ -34,3 +34,14 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  /* Desfines 1rem = 10px(10px/16px = 0.625) */
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  box-sizing: inherit;
+  background-color: var(--color-grey--light);
+}
