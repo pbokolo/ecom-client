@@ -15,6 +15,9 @@
   --color-grey: #f5f5f5;
   --color-grey--dark: #e0e0e0;
 
+  --color-black--light: #515151;
+  --color-black: #333333;
+
   /*=====  End of COLORS  ======*/
 
   /*=============================================
@@ -47,7 +50,7 @@ html {
 
 body {
   box-sizing: inherit;
-  background-color: var(--color-grey--light);
+  background-color: var(--color-white);
   font-size: var(--text-size);
 }
 
@@ -69,8 +72,37 @@ body {
 }
 
 .footer {
+  padding: 1rem;
   bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: var(--color-grey--light);
+}
+
+/**
+* Texts
+**/
+
+.text__copy {
+  font-size: var(--text-size--sm);
+  & a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color-grey--light);
+    background-color: var(--color-black);
+    padding: 0.6rem 2rem;
+    font-size: var(--text-size);
+    border-radius: 0.25rem;
+    clip-path: polygon(5% 0, 100% 0%, 95% 100%, 0 100%);
+    transition: all 0.2s;
+  }
+  & a:visited {
+    text-decoration: none;
+    color: var(--color-grey--light);
+  }
+
+  & a:hover {
+    background-color: var(--color-black--light);
+  }
 }
