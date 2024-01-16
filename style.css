@@ -78,6 +78,10 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 0 10rem;
+
+  @media (width <= 425px) and (width >= 300px) {
+    padding: 0 1rem;
+  }
   justify-content: center;
   /*display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(30rem, 100%), 1fr));
