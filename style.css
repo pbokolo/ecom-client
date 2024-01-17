@@ -157,6 +157,10 @@ body {
   font-weight: 700;
 }
 
+.text--product-desc {
+  font-size: var(--text-size--sm);
+}
+
 /*=============================================
 =               PRODUCT CARD                  =
 =============================================*/
