@@ -146,8 +146,13 @@ body {
   transform: translateY(0.25rem);
 }
 
-.text--product-title {
+.text--product-title,
+.text--product-price {
   font-family: var(--font-title);
+  font-size: var(--text-size);
+}
+
+.text--product-price {
   font-size: var(--text-size--lg);
   font-weight: 700;
 }
@@ -177,6 +182,10 @@ body {
   flex-direction: column;
   gap: var(--main-layout-gap);
   padding: var(--main-margin);
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 /*=====  End of PRODUCT CARD  ======*/
