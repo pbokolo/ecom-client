@@ -31,8 +31,10 @@
   =                  SPACINGS                   =
   =============================================*/
   --main-layout-gap: 2rem;
+  --layout-gap: 1rem;
   --header-height: 5rem;
   --text-size--sm: 1.2rem;
+  --text-size--xs: 1rem;
   --text-size: 1.7rem;
   --text-size--lg: 2.2rem;
   --product-card-width: 30rem;
@@ -247,7 +249,7 @@ body {
 
 .dialog__content {
   width: 30rem;
-  height: 35rem;
+  height: min-content;
   background-color: var(--color-white);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   overflow: hidden;
@@ -258,4 +260,48 @@ body {
   padding: 0.75rem 1rem;
   border-bottom: 0.1rem solid var(--color-grey--dark);
   text-align: center;
+}
+
+/*=====  End of DIALOG  ======*/
+
+/*=============================================
+=                    FORM                    =
+=============================================*/
+
+.form {
+  padding: var(--main-margin);
+  display: flex;
+  flex-direction: column;
+  gap: var(--layout-gap);
+}
+
+.form__fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.form__fieldset-label {
+  font-size: var(--text-size--xs);
+}
+
+.form__fieldset-textinput,
+.form__fieldset-textarea {
+  padding: 0.75rem 1rem;
+  border: none;
+  border: 0.15rem solid var(--color-black--light);
+  background-color: var(--color-grey);
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+
+  &:focus {
+    outline: 0.1rem solid var(--color-secondary);
+    background-color: var(--color-white);
+  }
+}
+
+.form__fieldset-textarea {
+  height: 7rem;
+  overflow: scroll;
 }
