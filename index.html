@@ -164,7 +164,34 @@
                 <h4>Nouveau produit</h4>
               </div>
               <div class="dialog__content-body">
-                <form class="form"></form>
+                <form class="form">
+                  <fieldset class="form__fieldset">
+                    <label class="form__fieldset-label"> Titre </label>
+                    <input
+                      type="text"
+                      class="form__fieldset-textinput"
+                      placeholder="Ex: iPhone15 pro"
+                    />
+                  </fieldset>
+                  <fieldset class="form__fieldset">
+                    <label class="form__fieldset-label"> Prix </label>
+                    <input
+                      type="number"
+                      class="form__fieldset-textinput"
+                      placeholder="Ex: 15000 FC"
+                    />
+                  </fieldset>
+                  <fieldset class="form__fieldset">
+                    <label class="form__fieldset-label">
+                      Description du produit
+                    </label>
+                    <textarea
+                      class="form__fieldset-textinput"
+                      placeholder="Ex: 15000 FC"
+                    ></textarea>
+                  </fieldset>
+                  <input type="submit" class="btn btn--primary" />
+                </form>
               </div>
             </div>
           </div>
