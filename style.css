@@ -220,3 +220,35 @@ body {
     transform: translateY(0.5rem);
   }
 }
+
+/*=====  End of BUTTONS  ======*/
+
+/*=============================================
+=                     DIALOG                 =
+=============================================*/
+.dialog {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.dialog__overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dialog__content {
+  width: 30rem;
+  height: 50rem;
+  background-color: var(--color-white);
+  overflow: hidden;
+  border-radius: 1rem;
+}
