@@ -21,6 +21,13 @@
   /*=====  End of COLORS  ======*/
 
   /*=============================================
+  =                    FONTS                    =
+  =============================================*/
+
+  --font-title: "PT Sans";
+  --font-body: "Poppins";
+
+  /*=============================================
   =                  SPACINGS                   =
   =============================================*/
   --main-layout-gap: 1rem;
@@ -51,9 +58,11 @@ html {
   /* Desfines 1rem = 10px(10px/16px = 0.625) */
   font-size: 62.5%;
   box-sizing: border-box;
+  font-family: var(--font-body), sans-serif;
 }
 
 body {
+  font-family: inherit;
   box-sizing: inherit;
   background-color: var(--color-white);
   font-size: var(--text-size);
