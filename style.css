@@ -66,6 +66,7 @@ body {
   box-sizing: inherit;
   background-color: var(--color-white);
   font-size: var(--text-size);
+  color: var(--color-black);
 }
 
 .header,
@@ -145,6 +146,12 @@ body {
   transform: translateY(0.25rem);
 }
 
+.text--product-title {
+  font-family: var(--font-title);
+  font-size: var(--text-size--lg);
+  font-weight: 700;
+}
+
 /*=============================================
 =               PRODUCT CARD                  =
 =============================================*/
@@ -165,6 +172,7 @@ body {
 }
 
 .card__product-details {
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: var(--main-layout-gap);
