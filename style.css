@@ -230,6 +230,9 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: fixed;
+  bottom: 7rem;
+  right: 20rem;
 }
 
 /*=====  End of BUTTONS  ======*/
