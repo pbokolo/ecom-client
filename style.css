@@ -225,6 +225,13 @@ body {
   }
 }
 
+.btn--add {
+  box-shadow: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*=====  End of BUTTONS  ======*/
 
 /*=============================================
