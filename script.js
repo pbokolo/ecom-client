@@ -1,6 +1,6 @@
 "use strict";
 const addBtn = document.querySelector("#addBtn");
-const dialog = document.querySelector("#dialog");
+const dialog = document.querySelector("#productDialog");
 const overlay = dialog.querySelector("#overlay");
 
 addBtn.addEventListener("click", () => dialog.showModal());
